@@ -28,7 +28,7 @@ def parse_args(args):
         "--val-data",
         type=str,
         default=None,
-        help="Path to csv file with validation data",
+        help="Path to csv file with validation data", # parquet format data
     )
     parser.add_argument(
         "--train-num-samples",
